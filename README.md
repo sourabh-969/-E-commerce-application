@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ShoppyGlobe E-commerce Application
 A basic e-commerce application built with React.
 
@@ -13,3 +14,6 @@ This application allows users to browse products, view product details, add item
     adding and removing products.
 -   Error handling for API calls.
 -   Lazy loading using Suspense.
+=======
+# -E-commerce-application
+>>>>>>> a8ad5066d3697d5ba56efb862f6ac7d0f1c03921
