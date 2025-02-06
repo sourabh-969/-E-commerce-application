@@ -4,7 +4,7 @@ import "./Header.css";
 import { useSelector } from "react-redux";
 import { HiMiniShoppingBag } from "react-icons/hi2";
 import { PiGlobeStandFill } from "react-icons/pi";
-import { FaShopify, FaHome } from "react-icons/fa"; // using react-icons
+import { FaShopify, FaHome } from "react-icons/fa";
 import { BsCart4,BsGlobeCentralSouthAsia } from "react-icons/bs";
 
 

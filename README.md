@@ -57,15 +57,15 @@ To install ShoppyGlobe, follow these steps:
 <!-- col -->
 <td>
 <h3>* filter and search Option</h3><br><img src="./public/screenshot/filter and search.png">                                                   
-<h3>* Mobile View </h3><br><img src="./public/screenshot/mobile view.jpeg" width= 480px >
+<h3>* Mobile View </h3><br><img src="./public/screenshot/mobile View.jpeg" width= 480px >
 <h3>* Lazy_Loading Page </h3><br><img src="./public/screenshot/lazy loading.png" width= 640px ><br>
 </td>
 
 <!-- col -->
 <td>
-    <h3>* Ipad View </h3><br><img src="./public/screenshot/ipad view.jpeg" width= 640px >
+    <h3>* Ipad View </h3><br><img src="./public/screenshot/ipad View.jpeg" width= 640px >
     <h3>* Cart Page </h3><br><img src="./public/screenshot/cart view.jpeg" width= 480px >
-    <h3>* item Counter </h3><br><img src="./public/screenshot/Inc item.jpeg" width= 480px >
+    <h3>* item Counter </h3><br><img src="./public/screenshot/Inc Item.jpeg" width= 480px >
     <h3>* OrderPlaced Page </h3><br><img src="./public/screenshot/order Placed.jpeg" width= 640px >
 </tr>
 </table>
