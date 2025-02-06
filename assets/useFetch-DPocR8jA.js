@@ -1,1 +1,0 @@
-import{r as t}from"./index-BTRByLdz.js";function h(e){const[a,r]=t.useState(null),[n,o]=t.useState(null),[c,u]=t.useState(!0);return t.useEffect(()=>{(async()=>{try{const f=await(await fetch(e)).json();r(f)}catch(s){o(s)}finally{u(!1)}})()},[e]),{data:a,loading:c,error:n}}export{h as u};
