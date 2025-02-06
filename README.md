@@ -1,19 +1,46 @@
-<<<<<<< HEAD
 # ShoppyGlobe E-commerce Application
-A basic e-commerce application built with React.
+A e-commerce application built using Vite, React, and Redux.
 
-## Description
-This application allows users to browse products, view product details, add items to their cart and wishlist, and also perform checkout. It's built using React with Vite, React Router for navigation, and Redux for managing application state and other tools.
+## Feature's
+- Simple UI/UX: A clean and user-friendly interface for seamless user experience.
+- Good Resource Management: Efficient handling of resources to ensure optimal performance.
+- Home Page: Displays a comprehensive list of products.
+- Product Detail Pages: Provides detailed information about each product.
+- Cart, CartItem, & CartCheckout: Uses Redux to manage cart items, including adding, removing, and updating quantities.
+- Error Handling: Graceful management of API call failures.
+- Lazy Loading: Uses Suspense for efficient routing between pages.
 
-## Features
--   Home page displaying a list of products.
--   Product detail pages.
--   Cart functionality using Redux to manage cart items, including adding, 
-    removing, and updating quantities.
--   Wishlist functionality using Redux to manage wishlist items, including 
-    adding and removing products.
--   Error handling for API calls.
--   Lazy loading using Suspense.
-=======
-# -E-commerce-application
->>>>>>> a8ad5066d3697d5ba56efb862f6ac7d0f1c03921
+# Comments
+- Use comments sparingly for major logic or computations.
+- Maintain clean and readable code.
+
+## Concepts Learned
+- React Fundamentals
+- Advanced React
+- Redux for State Management
+- Data Fetching and API Integration
+- Event Handling
+- Styling and Responsive Design-Pure_CSS
+- Performance Optimization
+- Version Control-Git & GitHub
+- Project Structure and Organization
+- Debugging and Testing
+
+## Prerequisites
+- Node.js
+
+## Installation
+
+To install ShoppyGlobe, follow these steps:
+
+# Clone the repository:
+    https://github.com/sourabh-969/-E-commerce-application.git
+
+# Navigate to the project directory:
+>>cd shoppyglobe
+
+# Install dependencies:
+>>npm install
+
+# Start the development server:
+>>npm run dev

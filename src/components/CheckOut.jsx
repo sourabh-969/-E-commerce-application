@@ -1,10 +1,12 @@
-import { TiTick } from "react-icons/ti";
+import placedicon from "../assets/Placed.gif"
 
 function CheckOut(){
     return(
         <>
         <div className="checkout">
-            <TiTick className="checkout-icon"/><p>Order Placed Successfully!</p></div>
+            <img src={placedicon} alt="img"  className="checkout-icon"/>
+            <p>Order Placed Successfully!</p>
+        </div>
         </>
     );
 }

@@ -17,22 +17,22 @@ const appRouter = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Suspense fallback={<div>Loading..</div>}><ProductList /></Suspense>,
+        element: <Suspense fallback={<div className='loadingpage'>Loading..</div>}><ProductList /></Suspense>,
       },
       {
         path: "/cart",
-        element: <Suspense fallback={<div>Loading..</div>}><Cart /></Suspense>,
+        element: <Suspense fallback={<div className='loadingpage'>Loading..</div>}><Cart /></Suspense>,
       },
       {
-        path: "/product/:productId",   // dynamic parameter as id
-        element: <Suspense fallback={<div>Loading..</div>}><ProductDetail /></Suspense>,
+        path: "/product/:productId",   // dynamic routing using parameter as id
+        element: <Suspense fallback={<div className='loadingpage'>Loading..</div>}><ProductDetail /></Suspense>,
       },
       {
         path: "/checkout",
-        element: <Suspense fallback={<div>Loading..</div>}><CheckOut /></Suspense>,
+        element: <Suspense fallback={<div className='loadingpage'>Loading..</div>}><CheckOut /></Suspense>,
       },
     ],
-    errorElement: <Suspense fallback={<div>Loading..</div>}><NotFound /></Suspense>,
+    errorElement: <Suspense fallback={<div className='loadingpage'>Loading..</div>}><NotFound /></Suspense>,
   },
 
 ]);

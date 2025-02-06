@@ -9,34 +9,35 @@ function CartItem({item}){
     function handleRemoveItem(){
         dispatch(removeItem(item.id));
     }
-    // Handle quantity changes
-    function handleQuantityChange(e) {
-        const newQuantity = parseInt(e.target.value, 10);
-        if (newQuantity > 0) {
-          dispatch(updateQuantity({id:item.id, quantity:newQuantity}));
-        }
-      }
+     // Handle decreasing quantity
+  function handleDecreaseQuantity() {
+    if (item.quantity > 1) {
+      dispatch(updateQuantity({ id: item.id, quantity: item.quantity - 1 }));
+    }
+  }
 
+  // Handle increasing quantity
+  function handleIncreaseQuantity() {
+    dispatch(updateQuantity({ id: item.id, quantity: item.quantity + 1 }));
+  }
     return(
-        <div className="cart-item">
-            <div className="image-container">
-              <img src={item.thumbnail} alt={item.title} />
-            </div>
-            <div className="content-container">
-                <h3 className="item-title">{item.title}</h3>
-                <p className="item-price">Price: ${item.price}</p>
-
-                <div className="quantity-control">
-                <label className="quantity-label">Quantity:</label>
-                <input type="number" className="quantity-input"
-               value={item.quantity}  min="1"
-              onChange={handleQuantityChange}
-             />
+            <div className="cart-item">
+           <div className="image-container">
+             <img src={item.thumbnail} alt={item.title} />
            </div>
-                <button onClick={handleRemoveItem}>Remove</button>
-            </div>
-           
-        </div>
+           <div className="content-container">
+               <h3 className="item-title">{item.title}</h3>
+               <p className="item-price">Price: ${item.price}</p>
+
+               <div className="quantity-control">
+         <button className="quantity-btn" onClick={handleDecreaseQuantity}>-</button>
+         <span className="quantity-display">{item.quantity}</span>
+         <button className="quantity-btn" onClick={handleIncreaseQuantity}>+</button>
+               </div>
+               <span className="min-quantity">Min-Quantity = <b>1</b></span>
+               <button onClick={handleRemoveItem}>Remove</button>
+           </div>
+           </div>
     );
 }
 export default CartItem;

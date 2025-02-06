@@ -31,6 +31,7 @@ function ProductDetail(){
     
     //renders product details
     return(
+<div className="viewport">
     <div className="product-detail">
       <div className="image-container">
           <img src={product.thumbnail} alt={product.title} />
@@ -45,7 +46,8 @@ function ProductDetail(){
           <Link to="/"><button className='item-backbtn'>Back <FaArrowRight /></button></Link>
       </div>
     </div>
-    
+    </div>
+
     );
 }
 export default ProductDetail;

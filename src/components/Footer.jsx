@@ -3,7 +3,7 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="container">
-                <p>&copy; {new Date().getFullYear()} ShoppyGlobe. All rights reserved.</p>
+                <p> All rights reserved &nbsp;| &nbsp; &copy; {new Date().getFullYear()} ShoppyGlobe.</p>
             </div>
         </footer>
     );
