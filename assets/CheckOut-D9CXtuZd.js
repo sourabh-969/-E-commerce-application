@@ -1,0 +1,1 @@
+import{j as c}from"./index-BTRByLdz.js";const e="/-E-commerce-application/assets/Placed-DR5wGeAN.gif";function a(){return c.jsx(c.Fragment,{children:c.jsxs("div",{className:"checkout",children:[c.jsx("img",{src:e,alt:"img",className:"checkout-icon"}),c.jsx("p",{children:"Order Placed Successfully!"})]})})}export{a as default};

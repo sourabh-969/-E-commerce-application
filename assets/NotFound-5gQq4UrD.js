@@ -1,0 +1,1 @@
+import{g as e,j as s}from"./index-BTRByLdz.js";function a(){const r=e();return s.jsxs("center",{className:"errpage",children:[s.jsx("h1",{children:"err404"}),s.jsx("h1",{children:"Oops!! Page Not Found."}),s.jsxs("h3",{children:["Status:",r.status,r.statusText]}),s.jsx("h3",{children:r.data})]})}export{a as default};
