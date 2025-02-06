@@ -5,11 +5,12 @@ import { useRouteError } from "react-router-dom";
 function NotFound(){
     const err = useRouteError();
     return(
-        <>
-        <h1>Oops!!</h1>
-        <h3>{err.status}{err.statusText}</h3>
+        <center className="errpage">
+        <h1>err404</h1>
+        <h1>Oops!! Page Not Found.</h1>
+        <h3>Status:{err.status}{err.statusText}</h3>
         <h3>{err.data}</h3>
-        </>
+        </center>
 
     );
 }

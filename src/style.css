@@ -385,4 +385,9 @@ width: 70px;
     margin: 1rem;
   }
 }
-
+.erpage{
+  font-family: monospace;
+}
+.erpage, h1{
+  color: rgb(82, 224, 16);
+}

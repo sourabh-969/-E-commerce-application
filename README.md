@@ -56,7 +56,7 @@ To install ShoppyGlobe, follow these steps:
 
 <!-- col -->
 <td>
-<h3>* filter and search Option</h3><br><img src="./public/screenshot/filter and search.png" >                                                   
+<h3>* filter and search Option</h3><br><img src="./public/screenshot/filter and search.png">                                                   
 <h3>* Mobile View </h3><br><img src="./public/screenshot/mobile view.jpeg" width= 480px >
 <h3>* Lazy_Loading Page </h3><br><img src="./public/screenshot/lazy loading.png" width= 640px ><br>
 </td>
@@ -69,3 +69,5 @@ To install ShoppyGlobe, follow these steps:
     <h3>* OrderPlaced Page </h3><br><img src="./public/screenshot/order Placed.jpeg" width= 640px >
 </tr>
 </table>
+
+ <h3>* errpage </h3><br><img src="./public/screenshot/errpage.png" width= 1080px >
